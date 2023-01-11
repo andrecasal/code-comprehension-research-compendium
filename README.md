@@ -74,8 +74,8 @@ All of these characteristics play an important role in making a font suitable fo
 | Name            | Sans-serif monospaced | Ligatures | Serif italics | Distinctiveness of symbols | PowerLine symbols |
 |-----------------|-----------------------|-----------|---------------|----------------------------|-------------------|
 | Operator Mono	| ✅ | ✅ [With plugin](https://github.com/kiliman/operator-mono-lig) | ✅ | ✅ | ✅ [With plugin](https://github.com/kiliman/operator-mono-lig) |
-| Cascadia Code	| ✅ | ✅ | ✅ | ✅ | ✅ |
 | JetBrains Mono  | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Cascadia Code	| ✅ | ✅ | ✅ | ✅ | ✅ |
 
 ## Famous fonts that do not meet these criteria
 

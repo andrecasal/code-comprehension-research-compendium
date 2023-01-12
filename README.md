@@ -60,10 +60,10 @@ We welcome contributions of research on the effects of visualization techniques 
 
 When it comes to designing fonts for code, certain characteristics are especially important for maximum readability. The following list highlights the most important characteristics to consider when selecting a font for code:
 
-- **Monospaced**: Programming often involves working with lines of code that need to be aligned, such as in columns of tabular data or with matching brackets. A monospace font (also called a fixed-width font) is a type of font in which each character has the same width, making it easier to align text in columns.
+- **Monospaced**: Programming often involves working with lines of code that are more [readable when aligned](https://www.soberkoder.com/monospace-fonts-for-code/), including columns of tabular data or with matching brackets. A monospace font (also called a fixed-width font) is a type of font in which each character has the same width, making it easier to align text in columns.
 - **Distinctiveness of symbols**: Characters like "1", "l", and "I", "0", and "O", and ":", and ";", should be easily distinguishable to avoid confusion and errors.
 - **Functional construction**: Simple and clean forms free from unnecessary details that can help the font look crisp and legible even in small sizes.
-- **True italics with serif**: Having a clear distinction between the regular and italic form of the font with serif can help distinguish certain section of code like comments and types.
+- **[True](https://www.marksimonson.com/notebook/view/FakevsTrueItalics) italics with serif**: Having a clear distinction between the regular and italic form of the font with serif can help distinguish between certain sections of code like comments and types.
 - **Font ligatures**: Ligatures are special characters that are designed to join two or more characters together, making them appear as a single unit. they can be useful to improve the readability of code by making certain character combinations more distinct.
 - **Small line width**: With a small line width, it's possible to have more characters per line, providing more context and easier navigation.
 

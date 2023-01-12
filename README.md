@@ -86,10 +86,10 @@ All of these characteristics play an important role in making a font suitable fo
 | Iosevka	      | ✅ | ✅ | ❌ | ❌ | ✅ |
 | Hasklig	      | ✅ | ❌ | ❌ | ✅ | ✅ |
 | Input Mono	   | ✅ | ❌ | ❌ | ✅ | ✅ |
-| Monaco	         | ✅ | ❌ | ❌ | ✅ | ❌ |
 | Source Code Pro	| ✅ | ❌ | ❌ | ✅ | ✅ |
 | Hack	         | ✅ | ❌ | ❌ | ✅ | ✅ |
 | Inconsolata	   | ✅ | ❌ | ❌ | ✅ | ✅ with [Inconsolata for powerline](https://github.com/powerline/fonts/tree/master/Inconsolata) |
+| Monaco	         | ✅ | ❌ | ❌ | ✅ | ❌ |
 | Courier Prime	| ✅ | ❌ | ❌ | ✅ | ❌ |
 | Droid Sans Mono	| ✅ | ❌ | ❌ | ✅ | ❌ |
 | Roboto Mono	   | ✅ | ❌ | ❌ | ✅ | ❌ |

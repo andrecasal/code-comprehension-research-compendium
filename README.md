@@ -63,7 +63,7 @@ When it comes to designing fonts for code, certain characteristics are especiall
 - **Monospaced**: Programming often involves working with lines of code that are more [readable when aligned](https://www.soberkoder.com/monospace-fonts-for-code/), including columns of tabular data or with matching brackets. A monospace font (also called a fixed-width font) is a type of font in which each character has the same width, making it easier to align text in columns.
 - **Distinctiveness of symbols**: Characters like "1", "l", and "I", "0", and "O", and ":", and ";", should be easily distinguishable to avoid confusion and errors.
 - **Functional construction**: Simple and clean forms free from unnecessary details that can help the font look crisp and legible even in small sizes.
-- **[True](https://www.marksimonson.com/notebook/view/FakevsTrueItalics) italics with serif**: Having a clear distinction between the regular and italic form of the font with serif can help distinguish between certain sections of code like comments and types.
+- **[True italics](https://www.marksimonson.com/notebook/view/FakevsTrueItalics)**: Having a clear distinction between the regular and italic form of the font can help distinguish between certain sections of code like comments and types.
 - **Font ligatures**: Ligatures are special characters that are designed to join two or more characters together, making them appear as a single unit. they can be useful to improve the readability of code by making certain character combinations more distinct.
 - **Small line width**: With a small line width, it's possible to have more characters per line, providing more context and easier navigation.
 
@@ -71,28 +71,28 @@ All of these characteristics play an important role in making a font suitable fo
 
 ## Fonts that meet these criteria
 
-| Name            | Sans-serif monospaced | Ligatures | Serif italics | Distinctiveness of symbols | PowerLine symbols |
-|-----------------|-----------------------|-----------|---------------|----------------------------|-------------------|
-| Operator Mono	| ✅ | ✅ [With plugin](https://github.com/kiliman/operator-mono-lig) | ✅ | ✅ | ✅ [With plugin](https://github.com/kiliman/operator-mono-lig) |
-| JetBrains Mono  | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Cascadia Code	| ✅ | ✅ | ✅ | ✅ | ✅ |
+| Name           | Sans-serif | monospaced | Ligatures                                                     | Italics | Distinctiveness of symbols                      | PowerLine symbols                                             |
+| -------------- | ---------- | ---------- | ------------------------------------------------------------- | ------- | ----------------------------------------------- | ------------------------------------------------------------- |
+| Operator Mono  | ✅          | ✅          | ✅ [With plugin](https://github.com/kiliman/operator-mono-lig) | ✅       | ![Operator Mono](./symbols/operator-mono.png)   | ✅ [With plugin](https://github.com/kiliman/operator-mono-lig) |
+| JetBrains Mono | ✅          | ✅          | ✅                                                             | ✅       | ![JetBrains Mono](./symbols/jetbrains-mono.png) | ✅                                                             |
+| Cascadia Code  | ✅          | ✅          | ✅                                                             | ✅       | ![Cascadia Code](./symbols/cascadia-code.png)   | ✅                                                             |
+| Monoid         | ✅          | ✅          | ✅                                                             | ✅       | ![Monoid](./symbols/monoid.png)                 | ✅                                                             |
+| Iosevka        | ✅          | ✅          | ✅                                                             | ✅       | ![Iosevka](./symbols/iosevka.png)               | ✅                                                             |
 
 ## Famous fonts that do not meet these criteria
 
-| Name            | Sans-serif monospaced | Ligatures | Serif italics | Distinctiveness of symbols | PowerLine symbols |
-|-----------------|-----------------------|-----------|---------------|----------------------------|-------------------|
-| Fira Code       | ✅ | ✅ | ❌ | ✅ | ✅ |
-| Monoid	         | ✅ | ✅ | ❌ | ✅ | ✅ |
-| Iosevka	      | ✅ | ✅ | ❌ | ❌ | ✅ |
-| Hasklig	      | ✅ | ❌ | ❌ | ✅ | ✅ |
-| Input Mono	   | ✅ | ❌ | ❌ | ✅ | ✅ |
-| Source Code Pro	| ✅ | ❌ | ❌ | ✅ | ✅ |
-| Hack	         | ✅ | ❌ | ❌ | ✅ | ✅ |
-| Inconsolata	   | ✅ | ❌ | ❌ | ✅ | ✅ with [Inconsolata for powerline](https://github.com/powerline/fonts/tree/master/Inconsolata) |
-| Monaco	         | ✅ | ❌ | ❌ | ✅ | ❌ |
-| Courier Prime	| ✅ | ❌ | ❌ | ✅ | ❌ |
-| Droid Sans Mono	| ✅ | ❌ | ❌ | ✅ | ❌ |
-| Roboto Mono	   | ✅ | ❌ | ❌ | ✅ | ❌ |
+| Name            | Sans-serif | monospaced | Ligatures | Italics                                                  | Distinctiveness of symbols                        | PowerLine symbols                                                                              |
+| --------------- | ---------- | ---------- | --------- | -------------------------------------------------------- | ------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| Fira Code       | ✅          | ✅          | ✅         | ❌ [Issue](https://github.com/tonsky/FiraCode/issues/134) | ![Fira Code](./symbols/fira-code.png)             | ✅                                                                                              |
+| Hasklig         | ✅          | ✅          | ❌         | ✅                                                        | ![Hasklig](./symbols/hasklig.png)                 | ✅                                                                                              |
+| Input Mono      | ✅          | ✅          | ❌         | ✅                                                        | ![Input Mono](./symbols/input-mono.png)           | ✅                                                                                              |
+| Source Code Pro | ✅          | ✅          | ❌         | ✅                                                        | ![Source Code Pro](./symbols/source-code-pro.png) | ✅                                                                                              |
+| Hack            | ✅          | ✅          | ❌         | ✅                                                        | ![Hack](./symbols/hack.png)                       | ✅                                                                                              |
+| Courier Prime   | ✅          | ✅          | ❌         | ✅                                                        | ![Courier Prime](./symbols/courier-prime.png)     | ❌                                                                                              |
+| Roboto Mono     | ✅          | ✅          | ❌         | ✅                                                        | ![Roboto Mono](./symbols/roboto-mono.png)         | ❌                                                                                              |
+| Inconsolata     | ✅          | ✅          | ❌         | ❌                                                        | ![Inconsolata](./symbols/inconsolata.png)         | ✅ with [Inconsolata for powerline](https://github.com/powerline/fonts/tree/master/Inconsolata) |
+| Monaco          | ✅          | ✅          | ❌         | ❌                                                        | ![Monaco](./symbols/monaco.png)                   | ❌                                                                                              |
+| Droid Sans Mono | ✅          | ✅          | ❌         | ❌                                                        | ![Droid Sans Mono](./symbols/droid-sans-mono.png) | ❌                                                                                              |
 
 # Conclusion
 
